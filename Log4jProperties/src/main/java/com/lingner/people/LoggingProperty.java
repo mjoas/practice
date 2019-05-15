@@ -12,5 +12,8 @@ public class LoggingProperty {
 
         PropertyConfigurator.configure("src/log4j.properties");
         logger.info("Log4j appender configuration is succesful!");
+        logger.trace("This is a trace message");
+        logger.debug("This is a debug message");
+        logger.error("This is an error message");
     }
 }
