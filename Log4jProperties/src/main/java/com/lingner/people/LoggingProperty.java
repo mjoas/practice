@@ -10,7 +10,7 @@ public class LoggingProperty {
 
     public static void main(String[] args){
 
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("src/log4j.properties");
         logger.info("Log4j appender configuration is succesful!");
     }
 }
