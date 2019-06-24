@@ -48,9 +48,9 @@ public class LoggingLevelManipulation {
         printLevels();
         System.out.println("individual loggers set to FINEST");
         logMessages();
-        lgr.setLevel(Level.FINEST);
+        lgr.setLevel(Level.WARNING);
         printLevels();
-        System.out.println("com level: FINEST");
+        System.out.println("com level: WARNING");
         logMessages();
     }
 
